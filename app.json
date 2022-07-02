@@ -41,12 +41,12 @@
         "GROUP": {
             "description": "اكتب هنا معرف جروبك بدون @",
             "required": true,
-            "value": "KyuraSupport"
+            "value": "bajwkk"
         },
          "CHANNEL": {
             "description": "اكتب هنا معرف قناتك بدون @",
             "required": true,
-            "value": "KyuraProjects"
+            "value": "CR_T2"
         },
         "SUDO_USERS": {
             "description": "اكتب هنا معرف المطور منفصل بمسافه.",
