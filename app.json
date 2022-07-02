@@ -1,0 +1,80 @@
+{
+    "name": "MusicKyura",
+    "description": "Music allow you to stream music trought the telegram voice chat feature.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/adhamsamyelshora/SMSMNEWMUSIXSPEED",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "كود جلسة بايروجرام",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "ايدي مطور البوت",
+            "required": true,
+            "value": ""
+        },
+        "ASS_ID": {
+            "description": "اكتب هنا ايدي المساعد",
+            "required": true,
+            "value": ""
+        },
+         "BOT_IMG": {
+            "description": "صوره استارت",
+            "required": true
+        },
+        "LOG_GROUP_ID": {
+            "description": "id مجموعة المساعده",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "اكتب هنا الايبي ايدي",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "اكتب هنا الايبي هاش",
+            "required": true,
+            "value": ""
+        },
+        "GROUP": {
+            "description": "اكتب هنا معرف جروبك بدون @",
+            "required": true,
+            "value": "KyuraSupport"
+        },
+         "CHANNEL": {
+            "description": "اكتب هنا معرف قناتك بدون @",
+            "required": true,
+            "value": "KyuraProjects"
+        },
+        "SUDO_USERS": {
+            "description": "اكتب هنا معرف المطور منفصل بمسافه.",
+            "required": true,
+            "value": "1663258664"
+        },
+        "DURATION_LIMIT": {
+            "description": "سيبها زي ما هيا متغيرهاش",
+            "required": true,
+            "value": "3600"
+        },
+        "BOT_TOKEN": {
+            "description": "اكتب هنا توكن بوتك",
+            "required": true,
+            "value": ""
+        },
+        "MONGO_DB_URI": {
+            "description": "اكتب هنا عنوان url الخاص بـ mongodb من mongodb.cloud.com (متستخدمش بتاعي اللي تحت!)",
+            "required": true,
+            "value": ""
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
